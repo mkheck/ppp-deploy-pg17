@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeployController {
     @GetMapping
     public String getDeploy() {
-        return "Deployed from GitHub!";
+        return "Deployed from GitHub, check it out!";
     }
 }
